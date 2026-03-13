@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>정빈쌤의 학습상담소</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!-- 상단 -->
+<header class="top">
+    <div class="container top__inner">
+        <div class="brand">
+            <div class="brand__mark">
+                <img src="assets/img/brand.png" alt="로고">
+            </div>
+            <div class="brand__text">
+                <strong>정빈쌤의 학습상담소</strong>
+                <span>모든 상담은 100% 무료입니다.</span>
+            </div>
+        </div>
+
+        <div class="top__tag">
+            <a class="pill" href="https://open.kakao.com/o/s4veBH0h" target="_blank" rel="noopener">
+                카카오톡
+            </a>
+            <a class="pill pill--soft" href="https://naver.me/5jBFS7yV" target="_blank" rel="noopener">
+                문의하기
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- 본문(이미지 랜딩) -->
+<main class="content">
+    <div class="imgBox">
+        <picture>
+            <source srcset="assets/img/1_m.png" media="(max-width: 768px)">
+            <img src="assets/img/1.png" alt="메인 이미지">
+        </picture>
+    </div>
+
+    <div class="imgBox">
+        <picture>
+            <source srcset="assets/img/2_m.png" media="(max-width: 768px)">
+            <img src="assets/img/2.png" alt="서비스 소개">
+        </picture>
+    </div>
+
+    <div class="imgBox">
+        <picture>
+            <source srcset="assets/img/3_m.png" media="(max-width: 768px)">
+            <img src="assets/img/3.png" alt="대상 안내">
+        </picture>
+    </div>
+
+    <div class="imgBox">
+        <picture>
+            <source srcset="assets/img/4_m.png" media="(max-width: 768px)">
+            <img src="assets/img/4.png" alt="성공 사례">
+        </picture>
+    </div>
+
+
+    <section class="last">
+        <div class="callArea">
+            <picture>
+                <source srcset="assets/img/5_m.png" media="(max-width: 768px)">
+                <img src="assets/img/5.png" alt="문의 안내">
+            </picture>
+
+            <!-- 투명 링크 영역 (위치/크기는 CSS에서 %로 조절) -->
+            <a class="callLink callLink--kakao"
+               href="https://open.kakao.com/o/s4veBH0h"
+               target="_blank" rel="noopener"
+               aria-label="카카오톡 문의하기"></a>
+
+            <a class="callLink callLink--form"
+               href="https://naver.me/5jBFS7yV"
+               target="_blank" rel="noopener"
+               aria-label="네이버폼 상담예약"></a>
+        </div>
+    </section>
+</main>
+
+<!-- 푸터 -->
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__left">
+            <strong>정빈쌤의 학습상담소</strong>
+            <span class="footer__info">call : 010-4186-7415&nbsp;&nbsp;talk : 107wjd</span>
+        </div>
+        <div class="footer__right">© <span id="year"></span> All rights reserved.</div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
